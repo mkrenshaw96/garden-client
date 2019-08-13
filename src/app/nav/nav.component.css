@@ -1,0 +1,37 @@
+nav{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-title{
+    font-size: 2.3rem;
+    width: 90vw;
+    margin-bottom: 50px;
+}
+
+#nav{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+#links{
+    display: flex;
+}
+.nav-link{
+    margin-right: 30px;
+    font-size: .8rem;
+    cursor: pointer;
+}
+.nav-link:hover{
+    text-decoration: underline;   
+}
+
+#cart{
+    font-size: .6rem;
+    cursor: pointer;
+}
+

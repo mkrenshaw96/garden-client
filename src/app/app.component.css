@@ -1,0 +1,28 @@
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    height: 100px;
+    margin: 2vh auto;
+}
+
+#logo{
+    width: 65px;
+}
+
+#nav-title{
+    font-size: 2rem;
+    color: #414141
+}
+
+#right-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#menu{
+    margin-top: 10px;
+    width: 25px;
+} */

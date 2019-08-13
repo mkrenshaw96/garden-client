@@ -1,0 +1,77 @@
+#home-cont{
+    width: 100vw;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#garden1{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+.heading{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+    font-size: 1rem;
+}
+
+.mix-wrapper{
+    width: 98vw;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+#big{
+    width: 66%;
+}
+#small{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.small-img{
+    height: 49%;
+}
+
+.grid-img{
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+}
+/* .grid-img:hover{
+    transition: .2s ease-in-out;
+    filter: opacity(40%)
+} */
+
+.home-grid{
+    width: 90vw;
+    display: flex;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-grid-img{
+    width: calc(80vw /3 );
+    height: calc(80vw /3 );
+    object-fit: cover;
+    border: 1px solid grey;
+}
+
+#grid-two{
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.home-grid-two{
+    width: calc(97vw/2);
+    object-fit: cover;
+}
